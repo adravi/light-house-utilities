@@ -1,8 +1,7 @@
-﻿using System;
-using System.Threading.Tasks;
-using DreamTeam.Lighthouse.Core.Events;
+﻿using DreamTeam.Lighthouse.Core.Events;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Threading.Tasks;
 
 namespace DreamTeam.Lighthouse.Runner
 {
