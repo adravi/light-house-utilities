@@ -38,9 +38,8 @@ namespace DreamTeam.Lighthouse.Core.Events
         }
 
         private void TryRunningEvent(GameEvent gameEvent)
-        {
-            var eventIsRunning = RunEvent(gameEvent);
-            if (!eventIsRunning)
+        {           
+            if (!RunEvent(gameEvent))
             {
                 // It was not possible to run the event, just enqueue it
                 EnqueueEvent(gameEvent);
@@ -68,6 +67,7 @@ namespace DreamTeam.Lighthouse.Core.Events
                 TryRunningEvent(gameEvent);
             }
 
+            // In any other case, just enqueue the event
             EnqueueEvent(gameEvent);
         }
 
@@ -76,30 +76,31 @@ namespace DreamTeam.Lighthouse.Core.Events
         /// </summary>
         public void ConstantRun()
         {
-            if (currentEvent != null)
-            {
-                if (currentEvent.Status != EventStatus.Running)
+            if (eventQueue.Count != 0 && currentEvent != null)
+            {                
+                if (currentEvent.Status == EventStatus.Running)
                 {
+                    // Update current event
                     if (currentEvent.HasEnded())
                     {
                         Console.WriteLine($"{nameof(currentEvent)} {currentEvent.Id} has ended...");
                         currentEvent.Status = EventStatus.Finished;
                     }
-                }
-                else
-                {
-                    // Nothing to do
-                    Console.WriteLine($"{nameof(currentEvent)} {currentEvent.Id} is still running...");
-                    return;
+                    else
+                    {
+                        // Nothing to do
+                        Console.WriteLine($"{nameof(currentEvent)} {currentEvent.Id} is still running...");
+                        return;
+                    }
                 }
 
                 while (eventQueue.Count > 0)
                 {
                     var nextEvent = eventQueue.Peek();
-                    var eventIsRunning = RunEvent(nextEvent);
 
-                    if (eventIsRunning)
+                    if (RunEvent(nextEvent))
                     {
+                        // Next event started running
                         eventQueue.Dequeue();
                     }
                 }
