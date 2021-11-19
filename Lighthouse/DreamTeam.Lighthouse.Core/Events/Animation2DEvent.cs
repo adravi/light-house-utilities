@@ -2,6 +2,9 @@
 
 namespace DreamTeam.Lighthouse.Core.Events
 {
+    /// <summary>
+    /// Sample derivated class from GameEvent
+    /// </summary>
     public class Animation2DEvent : GameEvent
     {
         protected internal override void Run()
