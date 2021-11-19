@@ -28,9 +28,7 @@ namespace DreamTeam.Lighthouse.Core.Events
             Console.WriteLine($"{nameof(Animation2DEvent)} {Id} is checking its duration...");
 
             // Add your event logic here
-            endConditionHasBeenMet = true;
-
-            Console.WriteLine($"{nameof(Animation2DEvent)} {Id} has ended...");
+            endConditionHasBeenMet = true;            
 
             return endConditionHasBeenMet;
         }

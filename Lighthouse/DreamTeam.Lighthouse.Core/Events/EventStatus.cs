@@ -4,7 +4,7 @@
     {
         NotQueued,
         Queued,
-        InProgress,
+        Running,
         Finished
     }
 }

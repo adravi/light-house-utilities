@@ -2,6 +2,9 @@
 
 namespace DreamTeam.Lighthouse.Core.Events
 {
+    /// <summary>
+    /// Base class for game events
+    /// </summary>
     public abstract class GameEvent
     {
         public Guid Id { get; set; }
@@ -19,7 +22,7 @@ namespace DreamTeam.Lighthouse.Core.Events
 
         protected internal abstract bool IsReady();
 
-        protected internal abstract void Run();      
+        protected internal abstract void Run();
 
         protected internal abstract bool HasEnded();
     }
