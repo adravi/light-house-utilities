@@ -1,0 +1,10 @@
+C:\github\light-house-utilities\Lighthouse\DreamTeam.Lighthouse.Core\bin\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.deps.json
+C:\github\light-house-utilities\Lighthouse\DreamTeam.Lighthouse.Core\bin\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.dll
+C:\github\light-house-utilities\Lighthouse\DreamTeam.Lighthouse.Core\bin\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.pdb
+C:\github\light-house-utilities\Lighthouse\DreamTeam.Lighthouse.Core\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.csproj.AssemblyReference.cache
+C:\github\light-house-utilities\Lighthouse\DreamTeam.Lighthouse.Core\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\light-house-utilities\Lighthouse\DreamTeam.Lighthouse.Core\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.AssemblyInfoInputs.cache
+C:\github\light-house-utilities\Lighthouse\DreamTeam.Lighthouse.Core\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.AssemblyInfo.cs
+C:\github\light-house-utilities\Lighthouse\DreamTeam.Lighthouse.Core\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.csproj.CoreCompileInputs.cache
+C:\github\light-house-utilities\Lighthouse\DreamTeam.Lighthouse.Core\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.dll
+C:\github\light-house-utilities\Lighthouse\DreamTeam.Lighthouse.Core\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.pdb

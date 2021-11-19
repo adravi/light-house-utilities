@@ -1,0 +1,17 @@
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\bin\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.exe
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\bin\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.deps.json
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\bin\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.runtimeconfig.json
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\bin\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.runtimeconfig.dev.json
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\bin\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.dll
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\bin\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.pdb
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\bin\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.dll
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\bin\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Core.pdb
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.csproj.AssemblyReference.cache
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.AssemblyInfoInputs.cache
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.AssemblyInfo.cs
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.csproj.CoreCompileInputs.cache
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.csproj.CopyComplete
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.dll
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.pdb
+C:\github\light-house-utilities\DreamTeam.Lighthouse.Runner\obj\Debug\netcoreapp3.1\DreamTeam.Lighthouse.Runner.genruntimeconfig.cache
