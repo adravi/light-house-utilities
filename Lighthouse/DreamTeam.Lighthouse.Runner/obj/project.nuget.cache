@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Do5YTLDlA997Jj5q3ASLfzeq+p22I/vNG3AX7niA1VQJWbr9Dcit4LhLWo07oaRFG0OHN4FcELisQ+ipR181ng==",
+  "dgSpecHash": "EMMEjhqvWXvPtXm9pdUT0MTg9pR6ATpsPgVwj4t6iWtOL4U2DMukgLcA21x/Kj2hq2soTLGV39EfVLJyRNIYhg==",
   "success": true,
-  "projectFilePath": "C:\\github\\light-house-utilities\\Runner\\Runner\\DreamTeam.Lighthouse.Runner.csproj",
+  "projectFilePath": "C:\\github\\light-house-utilities\\Lighthouse\\DreamTeam.Lighthouse.Runner\\DreamTeam.Lighthouse.Runner.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "DreamTeam.Lighthouse.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DreamTeam.Lighthouse.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DreamTeam.Lighthouse.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DreamTeam.Lighthouse.Core/1.0.0": {
+      "type": "project",
+      "path": "../DreamTeam.Lighthouse.Core/DreamTeam.Lighthouse.Core.csproj",
+      "msbuildProject": "../DreamTeam.Lighthouse.Core/DreamTeam.Lighthouse.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "DreamTeam.Lighthouse.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\saavilae\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\light-house-utilities\\Runner\\Runner\\DreamTeam.Lighthouse.Runner.csproj",
+      "projectUniqueName": "C:\\github\\light-house-utilities\\Lighthouse\\DreamTeam.Lighthouse.Runner\\DreamTeam.Lighthouse.Runner.csproj",
       "projectName": "DreamTeam.Lighthouse.Runner",
-      "projectPath": "C:\\github\\light-house-utilities\\Runner\\Runner\\DreamTeam.Lighthouse.Runner.csproj",
+      "projectPath": "C:\\github\\light-house-utilities\\Lighthouse\\DreamTeam.Lighthouse.Runner\\DreamTeam.Lighthouse.Runner.csproj",
       "packagesPath": "C:\\Users\\saavilae\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\light-house-utilities\\Runner\\Runner\\obj\\",
+      "outputPath": "C:\\github\\light-house-utilities\\Lighthouse\\DreamTeam.Lighthouse.Runner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -37,7 +56,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\github\\light-house-utilities\\Lighthouse\\DreamTeam.Lighthouse.Core\\DreamTeam.Lighthouse.Core.csproj": {
+              "projectPath": "C:\\github\\light-house-utilities\\Lighthouse\\DreamTeam.Lighthouse.Core\\DreamTeam.Lighthouse.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DreamTeam.Lighthouse.Core.Events
+﻿namespace DreamTeam.Lighthouse.Core.Events
 {
-    interface IEventManager
+    public interface IEventManager
     {
+        public void AddEvent(GameEvent gameEvent, int delayInMiliSeconds = 0);
+
+        public GameEvent CurrentEvent();
+
+        public GameEvent NextEvent();
+
+        public void ConstantRun();
     }
 }
